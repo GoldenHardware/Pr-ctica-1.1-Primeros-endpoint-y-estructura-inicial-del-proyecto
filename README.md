@@ -8,7 +8,7 @@ Se crea el entorno virtual `.venv` en la carpeta `Taskflow-api` para aislar las 
 python -m venv .venv
 ```
 
-![Captura 1: crear el entorno virtual](media/captura1.png)
+![Captura 1: crear el entorno virtual](captura1.png)
 
 ## 2. Activar el entorno virtual
 
