@@ -18,7 +18,7 @@ Se activa el entorno en Windows (CMD). Si funciona, el prompt muestra el prefijo
 .\.venv\Scripts\activate.bat
 ```
 
-![Captura 2: activar el entorno virtual](media/captura2.png)
+![Captura 2: activar el entorno virtual](captura2.png)
 
 ## 3. Instalar las dependencias
 
@@ -28,7 +28,7 @@ Se instalan FastAPI (el framework de la API) y Uvicorn (el servidor ASGI que la 
 pip install fastapi uvicorn
 ```
 
-![Captura 3: instalar dependencias](media/captura3.png)
+![Captura 3: instalar dependencias](captura3.png)
 
 ## 4. Guardar las dependencias
 
@@ -38,7 +38,7 @@ Se vuelcan las versiones exactas de los paquetes instalados a `requirements.txt`
 pip freeze > requirements.txt
 ```
 
-![Captura 4: guardar dependencias](media/captura4.png)
+![Captura 4: guardar dependencias](captura4.png)
 
 ## 5. Arrancar el servidor
 
@@ -55,7 +55,7 @@ La salida confirma que:
 - Se iniciaron el proceso recargador y el proceso del servidor.
 - `Application startup complete` indica que la aplicación arrancó bien.
 
-![Captura 5: servidor en marcha](media/captura5.png)
+![Captura 5: servidor en marcha](captura5.png)
 
 ## 6. Probar el endpoint /version
 
@@ -65,7 +65,7 @@ Al abrir `http://127.0.0.1:8000/version` en el navegador, la API responde con su
 {"version":"0.1.0"}
 ```
 
-![Captura 6: endpoint /version](media/captura6.png)
+![Captura 6: endpoint /version](captura6.png)
 
 ## 7. Ruta raíz /
 
@@ -75,4 +75,4 @@ Al abrir `http://127.0.0.1:8000` aparece un error 404. Es el comportamiento espe
 {"detail":"Not Found"}
 ```
 
-![Captura 7: ruta raíz con 404](media/captura7.png)
+![Captura 7: ruta raíz con 404](captura7.png)
